@@ -16,7 +16,7 @@ st.image(image_path, width=250, use_column_width=False)
 
 ## Başlık ve Excel dosyayısı içeri aktarımı
 st.title("Piper Diyagramı")
-excel_file_path = r"C:\Users\User\PycharmProjects\pythonProject3\Bosver.xlsx"
+excel_file_path = r"Bosver.xlsx"
 st.subheader("1.Veri Dosyasını İndiriniz")
 
 def download_excel():
